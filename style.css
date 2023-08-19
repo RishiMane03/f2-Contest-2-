@@ -1,0 +1,107 @@
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+</style>
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    color: white;
+    margin-top: 35px;
+    margin-left: 45px;
+}
+
+h1{
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    font-family: 'Inter', sans-serif;
+}
+
+#student-form input{
+    width: 27vw;
+    height: 40px;
+    border: 1px solid #FFF;
+    margin-right: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 10px;
+    font-size: 18px;
+} 
+
+#add-edit-button{
+    width: 512px;
+    height: 47px;
+    color: #000;
+    font-size: 18px;
+    font-weight: 400;
+    background: #FFF;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+}
+
+.add:hover{
+    background-color: rgb(218, 216, 216);
+}
+
+#search-input{
+    width: 1175px;
+    height: 47px;
+    border: 1px solid #FFF;
+    background-color: black;
+    color: white;
+    padding-left: 13px;
+    font-size: 18px;
+    margin-bottom: 45px;
+    margin-top: 45px;
+}
+
+table{
+    border-collapse: collapse;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+
+table th{
+    border: 1px solid white;
+    font-size: 18px;
+    padding: 18px;
+    width: 12vw;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+
+table tr{
+    font-size: 18px;
+}
+
+.edit-btn{
+    border: none;
+    background: url(./Assests/edit\ 1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50px;
+    cursor: pointer;
+    color: transparent;
+}
+
+.delete-btn{
+    border: none;
+    background: url(./Assests/trash-2\ 1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50px;
+    cursor: pointer;
+    color: transparent;
+}
+
+

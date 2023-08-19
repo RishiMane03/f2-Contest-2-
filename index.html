@@ -5,10 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>f2-Contest-2</title>
     <link rel="stylesheet" href="./style.css">
+    <!-- Font Awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     
+    <form id="student-form">
+        <h1 id="form-heading">Student Management CRUD</h1>
+        <input type="hidden" id="edit-id">
+        <input id="name" type="text" placeholder="Name">
+        <input id="email" type="text" placeholder="Email">
+        <input id="GPA" type="text" placeholder="GPA">
+        <input id="age" type="text" placeholder="Age">
+        <input id="degree" type="text" placeholder="Degree">
+    </form>
 
+    <button id="add-edit-button">Add Student</button>
+
+    <div id="search-box">
+        <input type="text" id="search-input" placeholder="Search by name, email, or degree">
+    </div>
+
+    <table class="student-list">
+        <tr>
+            <th>ID</th>
+            <th>Student Name</th>
+            <th>Email</th>
+            <th>GPA</th>
+            <th>Age</th>
+            <th>Degree</th>
+        </tr>
+        
+    </table>
 
     <script src="./script.js"></script>
 </body>
